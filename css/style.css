@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f9f9f9;
+}
+
+header{
+    background: #FFF8F3;
+}
+
+.font-open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}

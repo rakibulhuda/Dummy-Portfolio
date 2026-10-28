@@ -3,15 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+.font-open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
 body{
     background: #f9f9f9;
 }
 
-header{
-    background: #FFF8F3;
+/*SHARED STYLE*/
+.nav-logo h2{
+    font-size: 45px;
+    font-weight: 800;
 }
 
-.font-open-sans{
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
+.btn{
+    background: #FD6E0A;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*MAIN STYLE*/
+header{
+    background: #FFF8F3;
+    padding-top: 51px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.nav-links{
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+.nav-links li{
+    list-style: none;
+    font-size: 20px;
+    color: #474747;
 }
